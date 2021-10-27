@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+</head>
+<body>
+    <center>
+        <h1>Página de registro</h1>
+        <br><br><br>
+    </center>
+        <h2>Ingresa tu usuario y contraseña para registrarte</h2>
+        <form method="POST">
+            <br>
+            Usuario: <input type="username" name="username" placeholder="Usuario">
+            Contraseña: <input type="password" name="password" placeholder="Contraseña">
+            <br><br><br>
+            <input type="submit" name="submit" value="Registrar">
+        </form>
+        <br><br><br>
+        <a href="{{url_for('index')}}">Página de inicio</a><br>
+</body>
+</html>
